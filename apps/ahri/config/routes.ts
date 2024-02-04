@@ -18,5 +18,10 @@ export const routes = [
           component: './Questionnaire/data'
         },
       ]
-    },
+  },
+  {
+    name: '权限',
+    path: '/ahri/access',
+    component: './Access'
+  }
   ]
